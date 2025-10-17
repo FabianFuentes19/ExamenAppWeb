@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, " >
+    
+    <title>Examen</title>
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+
+    <header>
+        <h1>Examen unidad 1 - Formulario</h1>
+        <nav>
+            <ul>
+                <li> <a href="" >1 </a></li>
+                <li> <a href="" >2 </a></li>
+                <li> <a href="" >3 </a></li>
+                <li> <a href="" >4</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <section>
+            <h3 id="mostrarNombre" class="mostrarNombre">Nombre: </h3>
+            <h3 id="mostrarEmail" class="mostrarEmail"> Email: </h3>
+            <h3 id="mostrarEdad" class="mostrarEdad"> Edad: </h3>
+            <h3 id="mostrarPais" class="mostrarPais"> Pais: </h3>
+        </section>
+
+        <main>
+            <form>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" class="nombre" placeholder="ingresa nombre" required>
+                <label for="email">Email: </label>
+                <input type="text" id="email" class="email" placeholder="ingresa email" required>
+                <label for="edad">Edad: </label>
+                <input type="number" id="edad" class="edad" placeholder="ingresa edad" required min="1" max="100">
+                <label for="pais">Pais: </label>
+                <input type="text" id="pais" class="pais" placeholder="ingresa pais" required>
+
+                <button type="submit" id="btnGuardar" class="btnGuardar"> Guardar </button>
+            </form>
+    </main>
+
+    <footer> Fabian Fuentes 4B</footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
